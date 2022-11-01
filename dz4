@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<heat>
+<style>
+body {
+  background-image: url('https://img.freepik.com/premium-photo/abstract-future-technology-white-network-background_476363-380.jpg?w=1380');
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+     h1 {color: grey;text-align: center;}
+     h2 {color: grey;text-align: center;}
+     li {color:grey;text-align: center;}
+     h3	{color: grey;text-align: center;}	
+		</style>
+  </head>
+
+  <body>
+	  <h1>Домашнее задание №4</h1>
+	  <h2>Свойства CSS</h2>
+      <p><ul>
+        <li>font-size</li>
+        <li>color</li>
+        <li>text-align</li>
+    </ul></p>
+          <h3>Способы обозначения цвета в CSS:</h3>
+     <p><ul>
+        <li>Названия именованных цветов</li>
+        <li>Шестнадцатеричные коды цветов</li>
+        <li>Цвета, задаваемые с помощью функций rgb() и hsl()</li>
+        <li>Глобальные значения inherit, initial, unset</li>
+        <li>Ключевое слово currentColor</li>
+      </body>
+    </html>
