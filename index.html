@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cards in CSS</title>
+    <style>
+        body {
+        background-image: url("https://phonoteka.org/uploads/posts/2021-03/1616621319_60-p-fon-minimalizm-62.jpg");
+        background-repeat: no-repeat;
+        background-size: cover;
+        font-family: "bookman old style";
+        }
+        .container {
+            display: flex;
+            flex-direction: row;
+        }
+
+        .block {
+            display: inline-block;
+            width: 40%;
+            text-align: center;
+            border-radius: 15%;
+            padding: 10px;
+            margin: 10px;
+            border: 2px solid white;
+            background-color: whitesmoke;
+            padding-bottom: 50px;
+        }
+
+        .text {
+            display: block;
+            height: 90%;
+        }
+
+        .img {
+            position: relative;
+            width: 90%;
+        }
+
+        .button_container {
+            display: block;
+            width: 100%;
+            position: relative;
+            padding-top: 20px;
+        }
+
+        .button {
+            display: inline-block;
+            text-decoration: none;
+            text-transform: uppercase;
+            transition: 0.4s ease-in-out;
+            width: 30%;
+            background-color: lightgrey;
+            border-radius: 50%;
+            padding: 10px;
+            color: #0b0b0b;
+        }
+
+        .button:hover {
+            color: cadetblue;
+        }
+
+        @media screen and (max-width: 450px) {
+        .container {
+                flex-wrap: wrap;
+        }
+
+        .block {
+                width: auto;
+        }
+        }
+
+        @media screen and (min-width: 451px) and (max-width: 960px) {
+            .block {
+                width: 30%;
+                font-size: 90%;
+            }
+
+            .button {
+                width: 90%;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <div class=block>
+            <div class="text">
+                <h2>20 Best Mountains in the world</h2>
+                <div><img class="img" src="https://phonoteka.org/uploads/posts/2022-01/1642637652_6-phonoteka-org-p-fon-gori-7.jpg"></div>
+                <p>By what standards should we measure “the best mountains in the world”?</p>
+                <p>Should it the most popular mountains? The biggest and tallest mountains?</p>
+                <p>The most challenging for climbers?</p>
+            </div>
+            <div class="button_container"><a class="button"
+                    href="https://greenglobaltravel.com/best-mountains-in-the-world-travel-bucket-list/">More</a></div>
+        </div>
+        <div class="block">
+            <div class="text">
+                <h2>Highest mountains in the world</h2>
+                <div><img class="img" src="https://i.sunhome.ru/religion/9/tibetskie-molitvi.orig.jpg"></div>
+                <p>The highest mountain in the world is Mount Everest. It’s common knowledge, it’s mainstream, and it’s not much of a secret
+                </p>
+                <p>Do you think know what the world’s second highest mountain is though?</p>
+                <p>Or, for that matter, what the third, fourth, fifth, sixth, seventh, eighth, and ninth highest mountains in the world are. </p> 
+            </div>
+            <div class="button_container"><a class="button"
+                    href="https://mpora.com/mountaineering-expeditions/highest-mountain-in-the-world-everest/">More</a></div>
+        </div>
+
+        <div class="block">
+            <div class="text">
+                <h2>Rock Climbing|Everything You Need To Know</h2>
+                <div><img class="img" src="https://c.wallhere.com/photos/89/84/landscape_mountains_snow_rocks-2095299.jpg!d"></div>
+                <p>Rock climbing is an exciting and challenging sport that will give you a rush like no other.</p>
+                <p>Combining physical strength with mental focus, rock climbers study routes, figuring out moves as they go, and then use insane power, flexibility and agility to conquer dizzying heights.</p>
+            </div>
+            <div class="button_container"><a class="button"
+                    href="https://mpora.com/rock-climbing/rock-climbing-everything-need-know/">More</a></div>
+        </div>
+    </div>
+
+</body>
+
+</html>
